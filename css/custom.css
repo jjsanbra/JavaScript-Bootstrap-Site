@@ -1,0 +1,60 @@
+/* Fonts importation */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto+Slab:700,400);
+
+/* Fonts Definition */
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+}
+
+h4, h5, h6 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+}
+
+
+header {
+	background-color: #ddd;
+	height: 10em;
+	padding-top: 10px;
+}
+
+header span {
+	font-size: 70px;
+	margin: 25px;
+	position: relative;
+	left: 75px;
+}
+
+.nolink:link, .nolink:visited, .nolink:hover, .nolink:active {
+	color: #e30;
+}
+
+nav {
+	height: 28px;
+	line-height: 28px;
+}
+
+.nav>li>a:link, .nav>li>a:visited {
+	color: #e30;
+}
+
+.nav>li>a:hover {
+	background-color: #222;
+	color: #fff;
+}
+
+.nav>li>a:active {
+	background-color: #222;
+	color: #999;
+}
+
+.nav>li.active>a, .nav>li.active>a:hover  {
+	color: #999;
+	cursor:default;
+}
