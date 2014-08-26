@@ -17,9 +17,10 @@ h4, h5, h6 {
 	font-weight: 400;
 }
 
+/*----- Header Styles ------*/
 
 header {
-	background-color: #ddd;
+	background-color: #eee;
 	height: 10em;
 	padding-top: 10px;
 }
@@ -29,11 +30,14 @@ header span {
 	margin: 25px;
 	position: relative;
 	left: 75px;
+	text-shadow: -2px 2px 8px #bbb;
 }
 
 .nolink:link, .nolink:visited, .nolink:hover, .nolink:active {
 	color: #e30;
 }
+
+/*----- Navigation Styles ------*/
 
 nav {
 	height: 28px;
@@ -57,4 +61,41 @@ nav {
 .nav>li.active>a, .nav>li.active>a:hover  {
 	color: #999;
 	cursor:default;
+}
+
+/*----- Carousel Styles ------*/
+
+aside {
+	position: relative;
+	bottom: 20px;
+	margin-bottom: 10px;
+}
+
+/*----- Section Styles ------*/
+
+.btn-primary {
+	background-color: #e30;
+	border-color: #d20;
+}
+
+/*----- Gallery Styles ------*/
+
+#gallery {
+	margin-top: 40px;
+}
+
+#gallery header {
+	background-color: #fff;
+	height: 90px;
+	padding-top: 0;
+}
+
+#gallery nav {
+	position: relative;
+	top: 25px;
+}
+
+.gallery-spaces {
+	padding-right: 0;
+	padding-left: 0;
 }
