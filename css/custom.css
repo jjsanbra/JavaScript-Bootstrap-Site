@@ -73,9 +73,15 @@ aside {
 
 /*----- Section Styles ------*/
 
-.btn-primary {
+.btn-primary:link, .btn-primary:visited {
 	background-color: #e30;
 	border-color: #d20;
+}
+
+.btn-primary:hover, .btn-primary:active {
+	background-color: #222;
+	border-color: #111;
+	color:#e30;
 }
 
 /*----- Gallery Styles ------*/
@@ -95,7 +101,17 @@ aside {
 	top: 25px;
 }
 
+#gallery nav ul {
+	display: table;
+}
+
+#gallery nav ul li {
+	display: table-cell;
+	padding: 0 10px;
+}
+
 .gallery-spaces {
+	display: none;
 	padding-right: 0;
 	padding-left: 0;
 }
